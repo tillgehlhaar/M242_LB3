@@ -5,11 +5,11 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumara und Till Gehlha
 
 # Inhalt
 
-* [Lernumgebung](https://github.com/SayHeyD/M242/tree/main/Lernumgebung)
-* [Cloud](https://github.com/SayHeyD/M242/tree/main/Cloud)
-* [IoTKitV3](https://github.com/SayHeyD/M242/tree/main/IoTKitv3)
-* [Load Balancer](https://github.com/SayHeyD/M242/tree/main/Load%20Balancer)
-* [Selbst aufsetzen](https://github.com/SayHeyD/M242/tree/main/Projekt%20selbst%20aufsetzen)
+* [Unser Wissenstand]()
+* [Wichtige Lernschritte]()
+* [Persönliche Lernentwicklung]()
+* [Reflexion]()
+* [TechDoc]()
 
 # Unser Wissenstand
 
