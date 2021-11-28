@@ -1,0 +1,9 @@
+  config.vm.define "m242-grafana" do |grafana|
+    grafana.vm.box = "ubuntu/focal64"
+    grafana.vm.hostname = "m242-grafana"
+    grafana.vm.network "private_network", ip: "192.168.11.4",
+      virtualbox__intnet: "iot"
+    grafana.vm.synced_folder "install/", "/mnt"
+    grafana.vm.provision :shell, :path => "./install/grafana/install.sh"
+    grafana.vm.network "forwarded_port", guest: 3000, host: 3000
+  end
