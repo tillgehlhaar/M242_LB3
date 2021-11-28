@@ -1,7 +1,7 @@
 # M242_LB3
 von Till und Sangeeth
 
-Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumara und Till Gehlhaar
+Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlhaar
 
 # Inhalt
 
