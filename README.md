@@ -19,7 +19,7 @@ Mit IoT geräten und vorallem MCUs hatte ich bisher eigneltich noch gar nichts z
 
 ## Sangeeth
 
-Wir hatten in der Schule bereits ein Modul in welchen wir einen Raspberry Pi verwendet haben. Dort haben wir bereits ein kleines Projekt mit einem RFID-Scanner umgesetzt, jedoch war dies im ersten Lehrjahr und ich habe nicht mehr sehr viel davon in Erinnerung behalten. Ansosntne habe ich was IoT, Sensoren udn Aktoren angeht wenig erfahrung. Allerdings bin ich wenn es um Services geht besser aufgestellt, da ich in der Freizeit selber gerne Web-Services entwickle und mich mit dem Thema beschäftige. Ebenfalls habe ich auch schon öfters in Modulen in denen es Möglichg war Web-services entwickelt und, oder konzipiert da mich diese Thema sehr stark interessiert.
+Wir hatten in der Schule bereits ein Modul in welchen wir einen Raspberry Pi verwendet haben. Dort haben wir bereits ein kleines Projekt mit einer Kamera und einem Bewegungssensor umgesetzt, jedoch war dies im zweiten Lehrjahr. Ansosntne habe ich was IoT, Sensoren udn Aktoren angeht wenig Erfahrung. Allerdings bin ich wenn es um Services geht besser aufgestellt, da ich im Betrieb so sachen mache.
 
 # Wichtige Lernschritte
 
