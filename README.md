@@ -29,7 +29,7 @@ Ich habe gelernt wie man Mikroprozessoren in der Praxis einsetzen kann um einem 
 
 ## Sangeeth
 
-Ich habe am meisten beim Programmieren der Applikation für den Mikroprozessor gelernt. Da ich nur Erfahrung in C# hatte und mir C++ erst einaml für ein par Stunden angeschaut hatte, konnte ich in diesem Modul mein Wissen was C++ betrifft vertiefen. Das was mich am meisten überrascht hat, aber im Nachinein natürlich völlig logisch ist, ist, dass ich das Zertifikat für einen HTTPS Request dem Mikroprozessor übergeben muss, da dieser wie die meisten Betriebssysteme keinen Vorinstallierten Zertifikatsspeicher hat. Ebenfalls konnte ich noch nie einen Load-Balancer konfigurieren und habe somit auch damit in diesem Modul meine ersten Erfahrungen damit gemacht.
+Am meisten gelernt habe ich bei der Programmierung der Anwendung für den Mikroprozessor. Da ich nur Erfahrung mit C# hatte und mich nur ein paar Stunden mit C++ beschäftigt hatte, konnte ich in diesem Modul mein Wissen über C++ vertiefen. 
 
 # Reflexion
 
