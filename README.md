@@ -7,15 +7,14 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlh
 
 * [Unser Wissenstand]()
 * [Wichtige Lernschritte]()
-* [Persönliche Lernentwicklung]()
 * [Reflexion]()
-* [TechDoc]()
+* [Unser Service]()
 
 # Unser Wissenstand
 
 ## Till
 
-Mit IoT geräten und vorallem MCUs hatte ich bisher eigneltich noch gar nichts zu tuen. Ich habe in einem anderen Modul bereits einmalig mit einem Raspberry Pi gearbietet. Das wars aber auch schon. Verschiedene Iot geräete nutze ich täglich im Smarthome bereich.  
+Mit IoT geräten und vorallem MCUs hatte ich bisher eigneltich noch gar nichts zu tuen. Ich habe in einem anderen Modul bereits einmalig mit einem Raspberry Pi gearbietet. Das wars aber auch schon. Verschiedene Iot geräte nutze ich täglich im Smarthome bereich. Mit Cloud Services hatte ich beriets häufiger zu tuen. 
 
 ## Sangeeth
 
@@ -35,7 +34,7 @@ Ich habe am meisten beim Programmieren der Applikation für den Mikroprozessor g
 
 ## Till
 
-Das Modul war sehr Spannend. Es hatte Spassgemacht auch mal mit etwas neuem zu arbeiten was ich bisher nicht kannte. Am ersten Tag des Moduls hatte ich gefehlt. Daher musste ich am zweiten Tag selbständig beginnen. Was etwas stressig war. 
+Das Modul war sehr Spannend. Es hatte Spassgemacht auch mal mit etwas neuem zu arbeiten was ich bisher nicht kannte. Am ersten Tag des Moduls hatte ich gefehlt. Dadurch habe ich viel verpasst
 
 
 ## Sangeeth
@@ -49,4 +48,12 @@ Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Mess
 ##Netzwerkplan
 
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Netzwerkplan.png)
+
+##Grafan Interface
+
+![alt text]()
+
+#Anleitung
+
+
 
