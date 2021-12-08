@@ -35,7 +35,7 @@ Ich habe am meisten beim Programmieren der Applikation für den Mikroprozessor g
 
 ## Till
 
-Das Modul war sehr Spannend. Es hatte Spassgemacht auch mal mit etwas neuem zu arbeiten was ich bisher nicht kannte. Am ersten Tag des Moduls hatte ich gefehlt. Dadurch habe ich viel verpasst
+Das Modul war sehr Spannend. Es hatte Spassgemacht auch mal mit etwas neuem zu arbeiten was ich bisher nicht kannte. Am ersten Tag des Moduls hatte ich gefehlt. Dadurch habe ich viel verpasst. Sangeeth konnte mir aber gut helfen und er hat mir einiges gezeigt. Ich habe viel herumprobiert. Die Dokumentation haben wir etwas vernachlässigt, was man teilweise auch sehen kann. 
 
 
 ## Sangeeth
@@ -44,7 +44,7 @@ Ich denke, ich bin allgemein gut mit meinen Arbeiten für das Modul vorangekomme
 
 # Unser Service
 
-Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messen. Dieser sendet die Daten an einen MQTT Broker. Dieser MQTT Broker ist auf einer lokalen VM Installiert. Per Python Script werden die Daten vom MQTT Broker in eine SQL Datenbank geschrieben welche sich in der Cloud befindet. Mittels Grafan Cloud werden die Daten ausgelesen und Dargestellt. 
+Wir haben uns dafür entschieden den Feuchtigkeits unt Temparaturs wert mit dem IoT hub zu Messen. Dieser sendet die Daten an einen MQTT Broker. Dieser MQTT Broker ist auf einer lokalen VM Installiert. Per Python Script werden die Daten vom MQTT Broker in eine SQL Datenbank geschrieben welche sich in der Cloud befindet. Mittels Grafan Cloud werden die Daten ausgelesen und Dargestellt. 
 
 ## Netzwerkplan
 
@@ -77,7 +77,7 @@ Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messe
    * sudo nano mqtt_to_mysql.py
    * python3 mqtt_to_mysql.py
 
-5. 
+5. In diesem Python Script ist angegeben an welchen DB Server und mit welchen Zugangsdaten sich der MQTT connected. Das Script erstellt auf dem Datenbankserver eine neue Datenbank mit den nötigen Tabellen. Danach werden die Daten entsprechend übermittelt und in die Tabellen geschrieben. Mittels Grafana können die Daten ausgelsesen und dargestellt werden. 
  
 
 
