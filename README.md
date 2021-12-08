@@ -6,7 +6,7 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlh
 # Inhalt
 
 * [Unser Wissenstand]()
-* [Wichtige Lernschritte]()
+* [Wichtige Lernschritte](# Wichtige Lernschritte)
 * [Reflexion]()
 * [Unser Service]()
 
@@ -51,7 +51,7 @@ Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Mess
 
 ##Grafan Interface
 
-![alt text]()
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Grafana.png)
 
 #Anleitung
 
