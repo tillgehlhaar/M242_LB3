@@ -56,7 +56,11 @@ Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messe
 
 # Installations Anleitung
 
-
+1. Als erstes Git Repository in Lokalen Ordner Clonen.
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/RepoClone.png)
+
+2. Mittels geclontem Vagrant File lokale VM erstellen welche als MQTT Host Dient. (MQTT wird autmaitsch mit Installiert)
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/VagrantUP.png)
+4. 
 
 
