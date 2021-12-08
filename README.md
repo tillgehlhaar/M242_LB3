@@ -57,5 +57,6 @@ Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messe
 # Installations Anleitung
 
 
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/RepoClone.png)
 
 
