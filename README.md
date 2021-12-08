@@ -64,9 +64,13 @@ Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messe
 
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/VagrantUP.png)
 
-2. Im Mbed Studio neues Programm Importieren. URL: https://github.com/tillgehlhaar/M242_LB3/tree/main/mqtt
+3. Im Mbed Studio neues Programm Importieren. URL: (https://github.com/tillgehlhaar/M242_LB3/tree/main/mqtt)
+ 
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/MbedImport.png)
 
+4. Nun muss noch folgendes Script auf den MQTT host kopiert werden. 
+ 
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/PythonScript.png)
 
 
 
