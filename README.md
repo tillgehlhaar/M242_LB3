@@ -46,15 +46,15 @@ Ich denke, ich bin allgemein gut mit meinen Arbeiten für das Modul vorangekomme
 
 Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Messen. Dieser sendet die Daten an einen MQTT Broker. Dieser MQTT Broker ist auf einer lokalen VM Installiert. Per Python Script werden die Daten vom MQTT Broker in eine SQL Datenbank geschrieben welche sich in der Cloud befindet. Mittels Grafan Cloud werden die Daten ausgelesen und Dargestellt. 
 
-##Netzwerkplan
+## Netzwerkplan
 
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Netzwerkplan.png)!
 
-##Grafan Interface
+## Grafan Interface
 
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Grafana.png)!
 
-#Anleitung
+# Installations Anleitung
 
 
 
