@@ -5,10 +5,11 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlh
 
 # Inhalt
 
-* [Unser Wissenstand]()
+* [Unser Wissenstand](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#unser-wissenstand)
 * [Wichtige Lernschritte](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#wichtige-lernschritte)
-* [Reflexion]()
-* [Unser Service]()
+* [Reflexion](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#reflexion)
+* [Unser Service](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#unser-service)
+* [Installations Anleitung](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#Installations Anleitung)
 
 # Unser Wissenstand
 
@@ -47,11 +48,11 @@ Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Mess
 
 ##Netzwerkplan
 
-![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Netzwerkplan.png)
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Netzwerkplan.png)!
 
 ##Grafan Interface
 
-![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Grafana.png)
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Grafana.png)!
 
 #Anleitung
 
