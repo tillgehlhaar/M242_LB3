@@ -79,7 +79,7 @@ In diesem Python Script ist angegeben an welchen DB Server und mit welchen Zugan
    * sudo nano mqtt_to_mysql.py
    * python3 mqtt_to_mysql.py
 
-6. Den Datenbankserver haben wir in der Cloud. Wir haben bei https://www.freesqldatabase.com/ ein Gratis Account erstellt und somit zugang einer Gratis DB erhalten. Man kriegt dann ein Server Adrese mit Benutzer und Passwort welche wir entsprechend im PythonScript verwenden.  
+6. Den Datenbankserver haben wir in der Cloud. Wir haben bei (https://www.freesqldatabase.com/) ein Gratis Account erstellt und somit zugang einer Gratis DB erhalten. Man kriegt dann ein Server Adrese mit Benutzer und Passwort welche wir entsprechend im PythonScript verwenden.  
  
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/MySQL.png)
 
