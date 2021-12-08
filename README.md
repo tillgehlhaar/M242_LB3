@@ -68,9 +68,19 @@ Wir haben uns dafür entschieden den Feuchtigkeits wert mit dem IoT hub zu Messe
  
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/MbedImport.png)
 
-4. Nun muss noch folgendes Script auf den MQTT host kopiert werden. 
+4. Nun muss noch folgendes Script auf den MQTT host kopiert werden. Am besten ins directory: logger
  
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/PythonScript.png)
+
+4. Auf der VM müssen nun noch folgende Befehle abgesetzt werden:
+   * cd logger/
+   * sudo nano mqtt_to_mysql.py
+   * python3 mqtt_to_mysql.py
+
+5. 
+ 
+
+
 
 
 
