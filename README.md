@@ -72,14 +72,20 @@ Wir haben uns dafür entschieden den Feuchtigkeits unt Temparaturs wert mit dem 
  
 ![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/PythonScript.png)
 
-4. Auf der VM müssen nun noch folgende Befehle abgesetzt werden:
+In diesem Python Script ist angegeben an welchen DB Server und mit welchen Zugangsdaten sich der MQTT connected. Das Script erstellt auf dem Datenbankserver eine neue Datenbank mit den nötigen Tabellen. Danach werden die Daten entsprechend übermittelt und in die Tabellen geschrieben. 
+
+5. Auf der VM müssen nun noch folgende Befehle abgesetzt werden:
    * cd logger/
    * sudo nano mqtt_to_mysql.py
    * python3 mqtt_to_mysql.py
 
-5. In diesem Python Script ist angegeben an welchen DB Server und mit welchen Zugangsdaten sich der MQTT connected. Das Script erstellt auf dem Datenbankserver eine neue Datenbank mit den nötigen Tabellen. Danach werden die Daten entsprechend übermittelt und in die Tabellen geschrieben. Mittels Grafana können die Daten ausgelsesen und dargestellt werden. 
+6. Den Datenbankserver haben wir in der Cloud. Wir haben bei https://www.freesqldatabase.com/ ein Gratis Account erstellt und somit zugang einer Gratis DB erhalten. Man kriegt dann ein Server Adrese mit Benutzer und Passwort welche wir entsprechend im PythonScript verwenden.  
  
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/MySQL.png)
 
+7. Mittel dem Online Tool Grafana haben wir ein Dashboard erstellt welches die Daten aus der Datenbank hohlt und schlussendlich Darstellt. Die Datenbank wurde folgendermassen eingebunden. 
+
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/GrafanaConfig.png)
 
 
 
