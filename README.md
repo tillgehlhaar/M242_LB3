@@ -6,7 +6,7 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlh
 # Inhalt
 
 * [Unser Wissenstand]()
-* [Wichtige Lernschritte](# Wichtige Lernschritte)
+* [Wichtige Lernschritte](https://github.com/tillgehlhaar/M242_LB3/blob/main/README.md#wichtige-lernschritte)
 * [Reflexion]()
 * [Unser Service]()
 
