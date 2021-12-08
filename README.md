@@ -48,5 +48,5 @@ Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Mess
 
 ##Netzwerkplan
 
-
+![alt text](https://github.com/tillgehlhaar/M242_LB3/blob/main/Netzwerkplan.png)
 
