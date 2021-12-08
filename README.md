@@ -15,7 +15,7 @@ Hier ist die Dokumentation zum Modul 242 von Sangeeth Sivakumaran und Till Gehlh
 
 ## Till
 
-Mit IOT und MCUs habe ich in der Praxis eher weniger Erfahrung. Raspberry pis habe ich schon in der Schule und Privat verwendet und auch schon Sensoren und Aktoren damit angesteuert aber dies war schon vor längerer Zeit. Das Intresse an Iot hatte ich schon länger aber habe mich bis jezt nie in die sache reingestürzt. 
+Mit IoT geräten und vorallem MCUs hatte ich bisher eigneltich noch gar nichts zu tuen. Ich habe in einem anderen Modul bereits einmalig mit einem Raspberry Pi gearbietet. Das wars aber auch schon. Verschiedene Iot geräete nutze ich täglich im Smarthome bereich.  
 
 ## Sangeeth
 
@@ -27,45 +27,15 @@ Wir hatten in der Schule bereits ein Modul in welchen wir einen Raspberry Pi ver
 
 Ich habe gelernt wie man Mikroprozessoren in der Praxis einsetzen kann um einem die Arbeit zu vereinfachen oder wichtige informationen zu liefern, ich kann mir nun besser vorstellen wie ich sie einsetzen könnte oder wo sie industriell verwendet werden. Wie das IOT Board funktioniert und anzusteuern ist, das konfigurieren fiel mir nach eingem ausprobieren des Boards immer leichter.
 
-## Gehlhaar
-
-Ich habe am meisten beim Programmieren der Applikation für den Mikroprozessor gelernt. Da ich nur Erfahrung in C# hatte und mir C++ erst einaml für ein par Stunden angeschaut hatte, konnte ich in diesem Modul mein Wissen was C++ betrifft vertiefen. Das was mich am meisten überrascht hat, aber im Nachinein natürlich völlig logisch ist, ist, dass ich das Zertifikat für einen HTTPS Request dem Mikroprozessor übergeben muss, da dieser wie die meisten Betriebssysteme keinen Vorinstallierten Zertifikatsspeicher hat. Ebenfalls konnte ich noch nie einen Load-Balancer konfigurieren und habe somit auch damit in diesem Modul meine ersten Erfahrungen damit gemacht.
-
-
-# Persönliche Lernentwicklung
-
-## Till
-
-Ich habe vorallem gelernt mit Mikroprozessoren funktionieren und ich sie ansteuern kann sowie für was sie eigentlich verwendet werden neben hobby basteleien.
-Da ich kaum Programmiere habe ich bei der änderung von Programmen für das Iot Board einiges neues gelernt.
-
 ## Sangeeth
 
-Ich habe in diesem Modul vieles über Mikroprozessoren gelernt, dazu gehören:
-
-- Mikroprozessor vs CPU
-- Programmieren eines Mikroprozessors
-- Anwendungsgebiete von Mikroprozessoren
-- Man kann selbst Mikroprozessoren designen und drucken lassen
-- Mikroprozessoren haben keinen Certificate-Store 🙄
-
-Auch habe ich etwas über nginx gelernt, obwohl ich diesen Dienst schon lange benutze:
-
-- Nginx als Load balancer
-
-Auch konnte ich noch einiges über das Prinzip Laod Balancer lernen:
-
-- Prinzipien wie Round-Robin, least connected
-- IP Hash bei Laod Balancing
-- Sessionhandling einer Applikation muss beim load-balancing angepasst werden
+Ich habe am meisten beim Programmieren der Applikation für den Mikroprozessor gelernt. Da ich nur Erfahrung in C# hatte und mir C++ erst einaml für ein par Stunden angeschaut hatte, konnte ich in diesem Modul mein Wissen was C++ betrifft vertiefen. Das was mich am meisten überrascht hat, aber im Nachinein natürlich völlig logisch ist, ist, dass ich das Zertifikat für einen HTTPS Request dem Mikroprozessor übergeben muss, da dieser wie die meisten Betriebssysteme keinen Vorinstallierten Zertifikatsspeicher hat. Ebenfalls konnte ich noch nie einen Load-Balancer konfigurieren und habe somit auch damit in diesem Modul meine ersten Erfahrungen damit gemacht.
 
 # Reflexion
 
 ## Till
 
-Ich fand es spannend mal mit solchen Board zu arbeiten. Werde definitif in Zukunft etwas mehr mit IOT Geräten arbeiten jedoch aktuell eher im Privatem rahmen. 
-Das das ganze Modul von zuhause aus gemacht werden musste hat etwas bedrückt.
-Ich konnte einiges neues in diesem Modul lernen.
+Das Modul war sehr Spannend. Es hatte Spassgemacht auch mal mit etwas neuem zu arbeiten was ich bisher nicht kannte. Am ersten Tag des Moduls hatte ich gefehlt. Daher musste ich am zweiten Tag selbständig beginnen. Was etwas stressig war. 
 
 
 ## Sangeeth
@@ -74,11 +44,9 @@ Ich denke, ich bin allgemein gut mit meinen Arbeiten für das Modul vorangekomme
 
 # Unser Service
 
-Wir haben uns dafür entschieden einen Temperatur-Alarm mit dem IoT-Board umzusetzen. Das bedeutet, dass wir die Temperatur mittels des Sensors auf dem Board lesen und dann per REST API an eine Web-App übermitteln wollen.
+Wir haben uns dafür entschieden den Fäuchtigkeits wert mit dem IoT hub zu Messen. Dieser sendet die Daten an einen MQTT Broker. Dieser MQTT Broker ist auf einer lokalen VM Installiert. Per Python Script werden die Daten vom MQTT Broker in eine SQL Datenbank geschrieben welche sich in der Cloud befindet. Mittels Grafan Cloud werden die Daten ausgelesen und Dargestellt. 
 
-Die Web-App ist für das logging der Einträge verantwortlich. Ausserdem kann über die Web-App ein Temperaturberich festgelegt werden. Bei allen Temperaturen, die ausserhalb dieses Bereiches liegen, wird "Alarm" geschalgen.
+##Netzwerkplan
 
-Der Alarm, zeigt sich ersten indem die Temperaturanzeige in der Web-App Rot angezegit wird und zweitens auf dem Board ein entsprechendes LED eingeschaltet wird. Ebenfalls wird auch auf dem OLED-Display eine NAchricht ausgegeben die zeigt, was der Feherl nun genau bedeutet.
 
-Weitere Informationen zu den Error-States finden Sie [hier](https://github.com/SayHeyD/M242/tree/main/IoTKitv3#Error-States).
 
