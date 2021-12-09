@@ -13,8 +13,7 @@ Vagrant.configure("2") do |config|
     mosquitto.vm.box = "ubuntu/focal64"
     mosquitto.vm.hostname = "m242-mosquitto"
     mosquitto.vm.network "public_network", bridge: "Intel(R) Wi-Fi 6 AX200 160MHz"
-    mosquitto.vm.synced_folder ".", "/logger"
-    mosquitto.vm.synced_folder "/install", "/logger"
+    mosquitto.vm.synced_folder "install/", "/logger"
     mosquitto.vm.provision "shell", path: "install/install.sh"
     mosquitto.vm.network "forwarded_port", guest: 1883, host: 1883
   end

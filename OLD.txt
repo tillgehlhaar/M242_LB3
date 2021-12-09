@@ -7,3 +7,4 @@
     grafana.vm.provision :shell, :path => "./install/grafana/install.sh"
     grafana.vm.network "forwarded_port", guest: 3000, host: 3000
   end
+  

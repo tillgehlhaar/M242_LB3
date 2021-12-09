@@ -11,10 +11,10 @@ TOPIC = 'sansiv/#'
  
 #DATABASE_FILE = 'mqtt.db'
 config = {
-  'user': 'sql11454680',
-  'password': 'EYTRb6D9mR',
+  'user': 'sql11457246',
+  'password': 'PylIyMtBxi',
   'host': 'sql11.freesqldatabase.com',
-  'database': 'sql11454680',
+  'database': 'sql11457246',
   'auth_plugin':'mysql_native_password'
 }
  
